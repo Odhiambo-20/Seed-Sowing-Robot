@@ -1,7 +1,7 @@
 import { Tabs } from "expo-router";
 import { LayoutDashboard, Gamepad2, Activity, Settings } from "lucide-react-native";
 import React from "react";
-import { theme } from "../constants/theme";
+import { theme } from "../../constants/theme";
 
 export default function TabLayout() {
   return (
