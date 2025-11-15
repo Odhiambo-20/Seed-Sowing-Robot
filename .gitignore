@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+.expo/
+.expo-shared/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# Data
+*.log
+data/logs/*
+data/telemetry/*
+data/sessions/*
+
+# ML Models
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# AWS
+.aws/
+terraform.tfstate*
+.terraform/
