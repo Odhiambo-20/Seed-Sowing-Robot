@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import * as React from 'react';
 import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useAuth } from '@/providers/AuthProvider';
@@ -9,7 +9,7 @@ export default function IndexScreen() {
   const router = useRouter();
   const { isAuthenticated, isLoading } = useAuth();
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (!isLoading) {
       if (isAuthenticated) {
         router.replace('/(tabs)/dashboard');

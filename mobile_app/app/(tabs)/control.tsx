@@ -1,4 +1,5 @@
-import React, { useState, useCallback, useRef } from 'react';
+import * as React from 'react';
+const { useState, useCallback, useRef } = React;
 import {
   View,
   Text,
